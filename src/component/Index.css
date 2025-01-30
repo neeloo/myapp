@@ -1,3 +1,7 @@
+ *{
+    background-color: rgb(175, 238, 159);
+ }
+
 .menu {
     padding: 5rem 0;
 }
@@ -23,7 +27,7 @@
 }
 
 .filter-btn {
-    background: beige;
+    background: rgb(224, 224, 204);
     border-color: black;
     font-size: 1rem;
     text-transform: capitalize;

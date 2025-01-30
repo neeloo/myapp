@@ -4,8 +4,6 @@ import Categries from './Categries';
 import Menu from './Menu';
 import './Index.css';
 
-
-
 const allc = ['all', ...new Set(items.map((item) => item.category))];
 const AppA = () => {  
     const [menuitem, setmenu] = useState(items);
@@ -24,7 +22,7 @@ const AppA = () => {
             <main>
                 <section className="menu section">
                     <div className="title">
-                        <h2>our menu</h2>
+                        <h2>Our Menu</h2>
                         <div className="underline"></div>
                     </div>
                     <Categries categoris={categoris} filterItems={filterItems} />
