@@ -3,8 +3,7 @@ import React from 'react'
 const Categries = ({ categoris, filterItems }) => {
     return (
         <>
-            <div className="btn-container">
-                {
+            <div className="btn-container">{
                     categoris.map((category, index) => {
                         return (
                             <button className="filter-btn"
@@ -13,7 +12,6 @@ const Categries = ({ categoris, filterItems }) => {
                                 {category}
                             </button>
                         );
-
                     })
                 }
             </div>

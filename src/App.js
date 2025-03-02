@@ -1,11 +1,11 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import AppA from './component/AllItem';
+import AllItem from './component/AllItem';
 
 function App() {
   return (
    <> 
-    <AppA/>
+    <AllItem/>
       
    </>
    
