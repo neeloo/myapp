@@ -4,6 +4,8 @@ import Categries from "./Categries";
 import Menu from "./Menu";
 import "./Index.css";
 
+
+
 const allc = ["all", ...new Set(items.map((item) => item.category))];
 const AppA = () => {
   const [menuitem, setmenu] = useState(items);

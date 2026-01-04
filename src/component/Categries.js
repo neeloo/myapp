@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Categries = ({ categoris, filterItems }) => {
     return (
         <>
